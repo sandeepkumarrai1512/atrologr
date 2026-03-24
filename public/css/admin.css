@@ -1,0 +1,1204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1,h2,h3,h4,h5,h6,a,span,div,li{
+    font-family: "Roboto", sans-serif;
+}
+
+ body {
+     background-color: #f8f9fa;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+ }
+ .buy-chat-custom-input {
+    display: flex;
+    align-items: center;
+}
+/* start css 22-09-25 ----------*/
+.form-filed-main2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.unseen{
+    background: #1c75bc21 !important;
+}
+.form-filed-main2 .Sell-Step-1-label {
+    text-wrap: nowrap;
+}
+
+.price-mainInner .Sell-Step-1-price-col {
+    flex: 0 0 22%;
+}
+.price-mainInner .Sell-Step-1-price-col input {
+    padding: 8px !important;
+}
+th.priceHead {
+    text-align: center !important;
+}
+
+
+/*--- End Css 22-09-25 ---------*/
+
+
+
+
+
+
+
+/* Layout wrapper */
+.chart-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Each chart card box */
+.chart-card {
+  background: linear-gradient(135deg, #ffffff, #f9fbfc);
+  border: 1px solid #e3eaf3;
+  border-left: 6px solid #1C75BC;
+  border-radius: 14px;
+  padding: 24px 20px;
+  box-shadow: 0 8px 20px rgba(28, 117, 188, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card hover effect */
+.chart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(28, 117, 188, 0.12);
+}
+
+/* Title style */
+.chart-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1C75BC;
+  margin-bottom: 16px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #dce6f2;
+}
+
+/* Canvas styling */
+.chart-wrapper canvas {
+  width: 100% !important;
+  max-height: 360px;
+  border-radius: 8px;
+  /* Removed background and padding to let chart library control look */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chart-card {
+    padding: 18px 15px;
+  }
+  .chart-title {
+    font-size: 18px;
+  }
+}
+ 
+.seller-product-table td a {
+    color: #0063b3 !important;
+    display: block;
+}
+.select-role-main select#userTypeSelect {
+    height: 56px;
+    margin-top: -1px;
+    background: #ffffff;
+    color: #333;
+    border: 1px solid #0a78bd;
+    padding: 0 20px;
+    font-size: 16px;
+    appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%230a78bd" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 18px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 0 0 10px 10px;
+}
+.select-role-main {
+    width: 12%;
+}
+.buy-chat-custom-input .send-message-main
+ {
+    width: 100%;
+}
+
+
+/*============= Help and support ====================*/
+/* Detail card styling */
+.card.p-3 {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Text paragraphs inside the card */
+.card.p-3 p {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #1e293b;
+}
+
+/* Strong labels inside paragraphs */
+.card.p-3 p strong {
+  color: #0f172a;
+  margin-right: 6px;
+}
+
+/* Acknowledge button container */
+.acknowledgeBtn {
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.acknowledgeYes .badge.bg-success {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.Admin-Dashboard-main .table .btn-info {
+    background: #1c75bc;
+    border: none;
+    color: white;
+}
+
+/* Acknowledge button styling */
+.acknowledgeBtn .btn-success {
+  background-color: #16a34a !important;
+  border: none;
+  font-size: 14px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: normal;
+}
+
+/* Acknowledged badge */
+.acknowledgeBtn .badge.bg-success {
+  font-size: 14px;
+  padding: 6px 12px;
+  background-color: #22c55e;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/*============= End Help and support ====================*/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .admin-date .text-muted {
+    font-size: 10px;
+    font-style: italic;
+    color: black !important;
+    margin-top: 4px;
+    padding: 0 8px;
+    font-weight: 500;
+}
+.admin-chat-div {
+    padding: 10px 14px !important;
+    margin-bottom: 5px !important;
+}
+.admin-offer-main .text-danger {
+    margin: 0 !important;
+}
+.alert.alert-success {
+    margin-top: 10px;
+}
+.notification-item .icon {
+    width: 55px !important;
+}
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  display: none;
+}
+
+.sidebar-overlay.show {
+  display: block;
+}
+ 
+ 
+ /*=== Start Css - 11-07-25 ===============*/
+ .setting-page-tabs .nav-link.active {
+    background: #1C75BC !important;
+    color: white !important;
+    font-weight: normal;
+}
+.setting-page-tabs {
+    gap: 10px;
+}
+.setting-page-tabs .nav-link {
+    font-weight: normal;
+    border: 1px solid #d3d3d3 !important;
+    border-radius: 5px 5px 0 0 !important;
+    border-bottom: 0;
+    color: black;
+}
+nav .page-item.active .page-link {
+    background: #1c75bc !important;
+    border-color: #1c75bc;
+}
+
+
+
+ /*=== End  Css - 11-07-25 ===============*/
+ 
+ 
+
+ /* Start Css - 11-06-25*/
+ 
+ th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 2;
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+table{
+    width:100%;
+}
+
+.page-item .page-link svg {
+    display: none !important;
+}
+.d-flex.justify-content-between.align-items-center.mt-4.flex-wrap {
+    padding: 2px 10px 12px 10px;
+    color: black;
+    font-size: 14px;
+}
+
+
+.Admin-Dashboard-sidebar a.Admin-Dashboard-nav-item.active {
+    background-color: #0776bd !important;
+    color: #ffffff;
+}
+.Admin-Dashboard-sidebar a.Admin-Dashboard-nav-item.active img {
+  filter: brightness(0) invert(1);
+}
+
+
+
+button#bulk-approve {
+    background: #198754 !important;
+    border: none !important;
+}
+
+.table-responsive label {
+    font-size: 14px;
+}
+
+.table-responsive div#answerTable_info {
+    font-size: 14px;
+}
+
+.table-responsive div#answerTable_paginate {
+    font-size: 14px;
+}
+.table-responsive div#answerTable_wrapper {
+    padding: 15px 15px 5px 15px;
+}
+/*button#bulk-approve:hover {*/
+/*    background: linear-gradient(45deg, #1c75bc, #008eff) !important;*/
+/*    transition: all 0.5s ease;*/
+/*}*/
+
+/* ----------------- Start Css 26-06-25 ---------------------------*/
+.buy-chat-main-content {
+    display: flex;
+    margin-top: 20px;
+}
+.message-seller-admin{
+    
+background: #0776bd !important;
+    color: white !important;
+    border-bottom-right-radius: 4px;
+}
+.admin-message-main {
+    background: #0776bd !important;
+    color: white !important;
+    border-radius: 10px 10px 0 0;
+}
+.admin-message-div {
+    display: flex;
+    padding: 8px 10px;
+    background: #80808017;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #0776bd36;
+    position: relative;
+}
+
+.admin-message-div .badge {
+    font-size: 13px;
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    height: 25px;
+    width: 26px;
+    border-radius: 100px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    background-color: #007e00 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================*/
+.form-filed-main {
+    display: flex;
+    align-items: center;
+}
+/*.form-filed-main label.Sell-Step-1-label {*/
+/*    width: 38%;*/
+/*}*/
+.swal2-confirm {
+    background: #1C75BC;
+}
+.swal2-confirm:hover {
+    background: black;
+}
+.table-responsive thead th {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 600;
+    color: black;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 28px;
+}
+.table-responsive tbody td {
+       padding: 8px 5px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e9ecef;
+    font-weight: nomal;
+    font-size: 13px;
+    line-height: 100%;
+}
+
+
+/*=============================================*/
+ 
+ 
+ 
+ 
+ .AP-ctm-btn{
+     padding: 7px 25px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    background: #f1f1f1 !important;
+    color: #000000 !important;
+    transition: all 0.3s !important;
+    font-weight: 600 !important;
+ } 
+ .badge-red {
+    font-size: 16px !important;
+    background: red;
+    font-weight: normal !important;
+}
+.badge-green {
+    font-size: 16px !important;
+    background: #146c43;
+    font-weight: normal !important;
+}
+ .AP-ctm-btn.active{
+     background-color: rgba(28, 117, 188, 1) !important;
+     color: white !important;
+ }
+ .adminProductViewBack {
+    text-align: end;
+    margin-top: 0px;
+}
+ 
+ 
+ .empty-state {
+    margin: 100px auto;
+}
+table tr th, td {
+    padding: 15px 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+/*.Admin-Dashboard-tab-nav {*/
+/*    padding: 0;*/
+/*    margin-bottom: 20px;*/
+/*    gap: 20px;*/
+/*}*/
+
+.Admin-Dashboard-tab-nav {
+    padding: 0;
+    margin-bottom: 20px;
+    gap: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+ .admin-top-search {
+     margin-left: auto;
+ }
+ .uploaded-images {
+    max-width: 986px;
+}
+
+ .admin-top-search input {
+     box-shadow: 0px 2.7px 27.03px 0px rgba(69, 69, 80, 0.1) !important;
+     border: none;
+ }
+.Admin-Dashboard-sidebar nav {
+    overflow-y: auto;
+    height: 89vh;
+    padding-bottom: 50px;
+}
+
+/* Hide scrollbar by default (Chrome, Edge, Safari) */
+.Admin-Dashboard-sidebar nav::-webkit-scrollbar {
+    width: 6px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* On hover: show thin, blur-colored scrollbar */
+.Admin-Dashboard-sidebar nav:hover::-webkit-scrollbar {
+    opacity: 1;
+}
+
+/* Scrollbar Track (optional: fully transparent) */
+.Admin-Dashboard-sidebar nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Scrollbar Thumb (the actual scroll handle) */
+.Admin-Dashboard-sidebar nav::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.3); /* light gray with blur effect */
+    border-radius: 10px;
+}
+
+/* Firefox-specific scrollbar styling (optional thin) */
+.Admin-Dashboard-sidebar nav:hover {
+    scrollbar-width: thin;           /* Firefox */
+    scrollbar-color: rgba(128,128,128,0.3) transparent;
+}
+
+
+.Sell-Step-line-active {
+    border-bottom: 2px solid #1976d2;
+    padding-bottom: 15px;
+}
+.Sell-Step-1-step a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ .top-date-div {
+     box-shadow: 0px 2.7px 27.03px 0px rgba(69, 69, 80, 0.1);
+     padding: 20px 10px 20px 20px;
+     margin-bottom: 15px;
+ }
+ 
+ 
+ 
+ /* =================================================* /
+ /* Main Table Container */
+.table-responsive {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px;
+    border: 1px solid #e9e9e9;
+}
+
+/* Table Base */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+/* Table Head */
+.table thead th {
+background: linear-gradient(184deg, #87caff52, #ffffff);
+    color: #1f2937;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 1px solid #e9e9e9;
+}
+
+/* Table Rows */
+.table tbody tr {
+    background-color: #fff;
+    transition: background-color 0.3s;
+    border-bottom: 1px solid #f1f5f9; /* light bottom border */
+}
+
+.table tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+/* Table Cells */
+.table td {
+    padding: 14px 18px;
+    vertical-align: middle;
+}
+
+/* Image Styling */
+.table td img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background-color: #fff;
+    padding: 4px;
+}
+
+/* Status Badge Styling */
+.badge {
+    padding: 5px 12px;
+    font-size: 13px;
+    border-radius: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.badge-green {
+    font-size: 15px !important;
+    background: #146c43;
+    font-weight: normal !important;
+    border-radius: 5px !important;
+}
+
+.badge-red {
+    background-color: #fee2e2;
+    color: #991b1b;
+}
+
+/* Edit/Delete Icons */
+.btn-sm i {
+    font-size: 17px;
+    color: #4b5563;
+    transition: color 0.2s ease-in-out;
+}
+.acti-de-buttons {
+    justify-content: end;
+}
+.acti-de-buttons button {
+    width: 141px;
+}
+
+
+.btn-sm:hover i {
+    color: #2563eb;
+}
+
+form button i.text-danger:hover {
+    color: #dc2626 !important;
+}
+
+/* Pagination */
+.pagination .page-link {
+    color: #2563eb;
+    border-radius: 0px;
+    padding: 6px 12px;
+    border: 1px solid #d1d5db;
+    margin: 0 2px;
+    font-size: 14px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #2563eb;
+    color: white;
+    border-color: #2563eb;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #9ca3af;
+    background-color: #f9fafb;
+    border-color: #e5e7eb;
+}
+
+ /* =================================================* /
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ /* End Css - 11-06-25*/
+button#adminSideToggle {
+    background-color: #0776bd;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer !important;
+    position: relative;
+    border-radius: 5px;
+}
+ .Admin-Dashboard-sidebar {
+     background: white;
+     min-height: 100vh;
+     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+     width: 250px;
+     position: fixed;
+     z-index: 999999 !important;
+ }
+
+ .Admin-Dashboard-logo {
+     padding: 10px 10px 30px 10px;
+         text-align: center;
+ }
+
+ .Admin-Dashboard-logo h4 {
+     color: #007bff;
+     margin: 0;
+     font-weight: 600;
+ }
+ .Admin-Dashboard-logo img {
+    width: 190px;
+    margin: auto;
+    text-align: center;
+}
+
+.Admin-Dashboard-nav-item img {
+    margin-right: 12px;
+}
+ .Admin-Dashboard-nav-item {
+     padding: 12px 15px;
+     border-bottom: 1px solid #f8f9fa;
+     color: black;
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+         font-size: 15px;
+     transition: all 0.3s;
+ }
+
+ .Admin-Dashboard-nav-item:hover,
+ .Admin-Dashboard-nav-item.active {
+     background-color: #f8f9fa;
+     color: #007bff;
+     text-decoration: none;
+ }
+ .admin-layout-main .adminProductViewBack {
+    padding-top: 15px;
+}
+
+ .count-bar {
+     background: #F8F7F1;
+     padding: 20px 15px;
+ }
+
+ .Admin-Dashboard-nav-item i {
+     width: 20px;
+     margin-right: 12px;
+ }
+
+ .Admin-Dashboard-main {
+     margin-left: 267px;
+     padding: 0px 20px 0 0;
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ .Admin-Dashboard-header {
+     /* background: white; */
+     padding: 15px 15px;
+     border-radius: 8px;
+     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+     margin-bottom: 0px;
+ }
+
+ .Admin-Dashboard-stats-card {
+     margin-bottom: 10px;
+     background: white;
+     border-radius: 8px;
+     padding: 20px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ .Admin-Dashboard-chart-container {
+     position: relative;
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+ }
+
+ .Admin-Dashboard-donut-chart {
+     width: 100%;
+     height: 100%;
+ }
+
+ .Admin-Dashboard-legend {
+     margin-top: 20px;
+ }
+
+ .Admin-Dashboard-legend-item {
+     display: flex;
+     align-items: center;
+     margin-bottom: 8px;
+ }
+
+ .Admin-Dashboard-legend-color {
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     margin-right: 10px;
+ }
+
+ .Admin-Dashboard-table {
+     background: white;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+ /*.Admin-Dashboard-tab-btn {*/
+ /*   padding: 7px 25px;*/
+ /*   border: none;*/
+ /*   border-radius: 5px;*/
+ /*   background: #f1f1f1;*/
+ /*   color: #000000;*/
+ /*   transition: all 0.3s;*/
+ /*   width: 160px;*/
+ /*   font-weight: 600;*/
+ /*}*/
+ 
+ .Admin-Dashboard-tab-btn {
+    padding: 7px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff !important;
+    color: #000000;
+    transition: all 0.3s;
+    width: 160px;
+    font-weight: normal;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px 5px 0 0 !important;
+    border-bottom: 0 !important;
+ }
+
+ /*.Admin-Dashboard-tab-btn.active {*/
+ /*    color: white;*/
+ /*    background: #1C75BC;*/
+ /*    border-radius: 5px;*/
+ /*}*/
+ 
+ .Admin-Dashboard-tab-btn.active {
+    color: white;
+    background: #1C75BC !important;
+    border-radius: 5px 5px 0 0;
+    border-color: #1C75BC !important;
+}
+
+ .Admin-Dashboard-status-received {
+     color: #28a745;
+ }
+
+ .Admin-Dashboard-status-pending {
+     color: #1C75BC;
+ }
+
+ .Admin-Dashboard-status-verify {
+     color: #dc3545;
+ }
+
+ .Admin-Dashboard-chart-area {
+     padding: 20px;
+     background: white;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     margin-top: 20px;
+ }
+
+ .Admin-Dashboard-line-chart {
+     width: 100%;
+     height: 200px;
+     background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+     border-radius: 8px;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .Admin-Dashboard-chart-line {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     right: 0;
+     height: 2px;
+     background: #2196f3;
+     transform: translateY(-50%);
+ }
+
+ .Admin-Dashboard-chart-line::before {
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 60px;
+     background: linear-gradient(to bottom, rgba(33, 150, 243, 0.3), transparent);
+     top: -30px;
+     border-radius: 20px 20px 0 0;
+ }
+
+ /* ------------------  Start Order And Develery Css ---------------------------------------------*/
+ .seller-product-container {
+     padding: 20px;
+     min-height: 100vh;
+ }
+
+.seller-product-header {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    background-color: #f5faff;
+    padding: 10px 24px;
+    border-left: 6px solid #007bff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px !important;
+    letter-spacing: 0.3px;
+}
+
+ /*.seller-product-header {*/
+ /*    font-size: 24px;*/
+ /*    font-weight: 600;*/
+ /*    margin-bottom: 30px;*/
+ /*    color: #333;*/
+ /*    margin-left: 20px;*/
+ /*}*/
+ .seller-product-table thead th {
+background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    font-weight: 600;
+    color: black;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 28px;
+ }
+
+ .seller-product-table tbody td {
+    padding: 15px 5px;
+    vertical-align: middle;
+    border-bottom: 1px solid #e9ecef;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 100%;
+ }
+
+ .seller-product-table tbody tr:hover {
+     background-color: #c5c5c5;
+ }
+
+ .seller-product-status-delivered {
+     background-color: #1C75BC;
+     color: #ffffff;
+     padding: 4px 8px;
+     border-radius: 4px;
+     font-size: 12px;
+     font-weight: 500;
+ }
+
+ .seller-product-detail-awaiting {
+     color: #856404;
+     font-size: 13px;
+ }
+
+ .seller-product-payment-escrow {
+     color: #0c5460;
+     font-size: 13px;
+ }
+
+ .seller-product-action-btn {
+     background: none;
+     border: none;
+     color: #6c757d;
+     font-size: 16px;
+     margin: 0 3px;
+     cursor: pointer;
+ }
+
+ .seller-product-action-btn:hover {
+     color: #495057;
+ }
+
+ .seller-product-sno {
+     color: #6c757d;
+     font-weight: 500;
+ }
+
+ /* ------------------  End Order And Develery Css ---------------------------------------------*/
+ 
+ /*------------------ Start Admin Chat and Offter -----------------------------------------*/
+        .delivery-management-product-header {
+            background: #8b9ce8;
+            color: white;
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .delivery-management-product-header .product-name {
+            color: #000;
+            font-weight: 500;
+        }
+
+        .delivery-management-product-item {
+            padding: 16px 20px;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .delivery-management-product-item:hover {
+            background-color: #f8f9fa;
+        }
+
+        .delivery-management-product-image {
+            width: 40px;
+            height: 40px;
+            background: #e9ecef;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .delivery-management-video-section {
+            background: #D5D5D5;
+            padding: 20px;
+            border-radius: 12px;
+            color: rgb(0, 0, 0);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 20px;
+        }
+
+        .delivery-management-play-btn {
+            margin-left: auto;
+            width: 40px;
+            height: 40px;
+            background: black;
+            border: none;
+            border-radius: 50%;
+            color: #D5D5D5;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .delivery-management-offer-details {
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .delivery-management-buyer-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+        }
+
+        .delivery-management-status-new {
+            background: #8FEB92B0;
+        }
+
+        .delivery-management-status-offer {
+            background: #5E86E359;
+        }
+
+        .delivery-management-status-warning {
+            background: #DB1B1B5C;
+        }
+
+        .delivery-management-status-yellow {
+            background: #FED84C;
+        }
+
+
+        .delivery-management-quantity {
+            font-size: 14px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .delivery-management-price {
+            margin-left: 10px !important;
+            color: #dc3545;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .delivery-management-action-btn {
+            margin-left: 10px !important;
+            background-color: #DB1B1B5C;
+            padding: 4px 20px;
+            border-radius: 12px;
+            border: none;
+            font-size: 11px;
+            font-weight: 500;
+            margin: 1px;
+            min-width: 65px;
+        }
+        .admin-toggle-div {
+    display: none;
+}
+        
+ /*------------------ End  Admin Chat and Offter -----------------------------------------*/
+ 
+  @media (max-width: 992px) {
+           .Admin-Dashboard-sidebar {
+         transform: translateX(-100%);
+         transition: transform 0.3s;
+         z-index: 1000;
+     }
+     .admin-toggle-div {
+    display: block;
+}
+         .Admin-Dashboard-main {
+        margin-left: 0;
+    }
+         .Admin-Dashboard-sidebar.show {
+         transform: translateX(0);
+         display: block !important;
+     }
+     .Admin-Dashboard-main {
+    padding: 0px !important; 
+}
+.top-date-div
+ {
+    padding: 15px !important;
+}
+.top-date-div .row {
+    gap: 14px;
+}
+.table thead th {
+    text-wrap: nowrap !important;
+}
+
+
+  }
+
+
+
+
+
+
+
+
+
+ /* ----------------------------  Start media Query -----------------------------------------------*/
+ @media (max-width: 768px) {
+     .seller-product-container {
+         padding: 10px;
+     }
+
+     .seller-product-table {
+         font-size: 12px;
+     }
+
+     .seller-product-table thead th,
+     .seller-product-table tbody td {
+         padding: 8px 6px;
+     }
+     .acti-de-buttons button {
+    padding: 5px 8px !important;
+    width: auto !important;
+}
+.main-content .Admin-Dashboard-tab-nav {
+    flex-wrap: nowrap !important;
+}
+.table-responsive tbody td a {
+    text-wrap: nowrap !important;
+}
+.buy-chat-main-content {
+    flex-wrap: wrap !important;
+}
+.buy-chat-left-panel {
+    width: 100%;
+}
+.buy-chat-right-panel {
+    width: 100% !important;
+}
+ }
+ 
+ 
+ @media (max-width:575px){
+     .seller-product-header {
+    font-size: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.05);
+ }
+ .chat-main-div {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+ 
+ .admin-top-search input#sidebarSearchInput {
+    width: 180px !important;
+}
+.buy-chat-close-btn {
+    top: 4px;
+    right: 5px;
+    font-size: 20px;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+}
+.buy-chat-arrow {
+    width: 86px;
+    margin-top: -6px;
+    height: 100% !important;
+}
+.chat-messages {
+    height: 50vh;
+}
+
+ 
+ 
+ 
+ 
+ }
